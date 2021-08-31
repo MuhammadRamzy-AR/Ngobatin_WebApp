@@ -1,0 +1,36 @@
+.button {
+    text-decoration: none;
+    display: inline-block;
+    border: 0.5px solid $color-pink;
+    padding: .5rem 3rem;
+    border-radius: 0rem;
+    transition: 0.3s ease-in-out;
+    font-size: 1.6rem;
+    margin:0 0.3em 0.3em 0;
+
+    &__sosialmedia {
+        background-color: $color-dark-black;
+        border: none;
+        padding: .8rem;
+    }
+
+    &__primary {
+        color: $color-white;
+        background-color: $color-pink;
+        box-shadow: 0 0 0 0.5px $color-pink;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+
+    &__secondary {
+        color: $color-pink;
+        background-color: #ff01561a;
+        box-shadow: 0 0 0 0.5px $color-pink;
+
+        &:hover {
+            color: $color-pink;
+        }
+    }
+}

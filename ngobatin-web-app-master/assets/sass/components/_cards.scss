@@ -1,0 +1,32 @@
+.card {
+    max-width: 30rem;
+
+    &__result {
+        border-radius: .8rem;
+    }
+
+    &__result-img {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    &__result-title {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+
+    &__result-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__result-text {
+        color: $color-orange;
+        font-weight: $font-bold;
+    }
+
+    &__result-star {
+        margin-bottom: .5rem;
+    }
+}
