@@ -1,0 +1,70 @@
+.about {
+    &__section {
+        margin-top: 7rem;
+        padding: 7.5rem 2rem 2.5rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 10rem;
+        }
+
+        .h1-custom {
+            font-size: 3.2rem;
+            font-weight: $font-light;
+            color: #111111;
+
+            span {
+                font-size: 4.2rem;
+                font-weight: $font-bold;
+                color: $color-pink;
+            }
+        }
+    }
+}
+
+.team {
+    &__section {
+        margin-top: 7rem;
+        padding: 7.5rem 2rem 2.5rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 10rem;
+        }
+
+        .h1-custom {
+            font-size: 3.2rem;
+            font-weight: $font-light;
+            color: #111111;
+
+            span {
+                font-size: 4.2rem;
+                font-weight: $font-bold;
+                color: $color-pink;
+            }
+        }
+
+        .box {
+            &-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 4rem;
+            }
+
+            &-img {
+                width: 25rem;
+                margin: 1.5rem;
+
+                img {
+                    position: relative;
+                    width: 100%;
+                    height: 30rem;
+                    object-fit: cover
+                }
+
+                .text {
+                    padding: 15px 0 5px;
+                }
+            }
+        }
+    }
+}
