@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iqballa24/ngobatin-web-app.git"
+    "url": "git+https://github.com/MuhammadRamzy-AR/Ngobatin_WebApp.git"
   },
-  "author": "Iqbal",
+  "author": "muhamram",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iqballa24/ngobatin-web-app/issues"
+    "url": "https://github.com/MuhammadRamzy-AR/Ngobatin_WebApp/issues"
   },
-  "homepage": "https://github.com/iqballa24/ngobatin-web-app#readme"
+  "homepage": "https://github.com/MuhammadRamzy-AR/Ngobatin_WebApp#readme"
 }
